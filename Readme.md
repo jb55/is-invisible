@@ -9,15 +9,19 @@
 
     $ component install jb55/is-hidden
 
-## API
+## Example
 
-
+```js
+var isHidden = require('is-hidden');
+var hidden = isHidden(el);
+// hidden is true if the element display is 'none' or visibility is 'hidden'
+```
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 <copyright holders>
+  Copyright (c) 2014 William Casarin
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
