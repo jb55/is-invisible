@@ -1,0 +1,14 @@
+{
+  "name": "is-hidden",
+  "repo": "jb55/is-hidden",
+  "description": "returns true if el display is none or visibility is hidden",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
