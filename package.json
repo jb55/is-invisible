@@ -3,6 +3,7 @@
   "repository": {
     "url": "git://github.com/jb55/is-invisible.git"
   },
+  "version": "0.0.0",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
