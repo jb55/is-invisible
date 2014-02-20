@@ -11,7 +11,7 @@ function reset(el){
   el.style.visibility = "";
 }
 
-describe('element inside parent', function(){
+describe('element', function(){
   var parent;
   var child;
 
