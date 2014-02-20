@@ -11,6 +11,8 @@
   "development": {
     "component/assert": "*",
     "jb55/show": "*",
+    "jb55/invisible": "*",
+    "jb55/visible": "*",
     "jb55/hide": "*"
   },
   "license": "MIT",

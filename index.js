@@ -6,7 +6,7 @@ function individual(el) {
 }
 
 function nested(el) {
-  return some(parents(el), function(ancestor){
+  return individual(el) || some(parents(el), function(ancestor){
     return individual(ancestor);
   });
 }
