@@ -766,6 +766,18 @@ require.register("jb55-show/index.js", Function("exports, require, module",
 }\n\
 //@ sourceURL=jb55-show/index.js"
 ));
+require.register("jb55-invisible/index.js", Function("exports, require, module",
+"module.exports = function(el) {\n\
+  el.style.visibility = 'hidden';\n\
+};\n\
+//@ sourceURL=jb55-invisible/index.js"
+));
+require.register("jb55-visible/index.js", Function("exports, require, module",
+"module.exports = function(el) {\n\
+  el.style.visibility = 'visible';\n\
+};\n\
+//@ sourceURL=jb55-visible/index.js"
+));
 require.register("jb55-hide/index.js", Function("exports, require, module",
 "module.exports = function(el) {\n\
   el.style.display = \"none\";\n\
@@ -781,7 +793,7 @@ function individual(el) {\n\
 }\n\
 \n\
 function nested(el) {\n\
-  return some(parents(el), function(ancestor){\n\
+  return individual(el) || some(parents(el), function(ancestor){\n\
     return individual(ancestor);\n\
   });\n\
 }\n\
@@ -814,6 +826,14 @@ require.alias("jb55-show/index.js", "is-invisible/deps/show/index.js");
 require.alias("jb55-show/index.js", "is-invisible/deps/show/index.js");
 require.alias("jb55-show/index.js", "show/index.js");
 require.alias("jb55-show/index.js", "jb55-show/index.js");
+require.alias("jb55-invisible/index.js", "is-invisible/deps/invisible/index.js");
+require.alias("jb55-invisible/index.js", "is-invisible/deps/invisible/index.js");
+require.alias("jb55-invisible/index.js", "invisible/index.js");
+require.alias("jb55-invisible/index.js", "jb55-invisible/index.js");
+require.alias("jb55-visible/index.js", "is-invisible/deps/visible/index.js");
+require.alias("jb55-visible/index.js", "is-invisible/deps/visible/index.js");
+require.alias("jb55-visible/index.js", "visible/index.js");
+require.alias("jb55-visible/index.js", "jb55-visible/index.js");
 require.alias("jb55-hide/index.js", "is-invisible/deps/hide/index.js");
 require.alias("jb55-hide/index.js", "is-invisible/deps/hide/index.js");
 require.alias("jb55-hide/index.js", "hide/index.js");
