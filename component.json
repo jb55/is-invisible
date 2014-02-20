@@ -1,7 +1,7 @@
 {
   "name": "is-invisible",
   "repo": "jb55/is-invisible",
-  "description": "returns true if el display is none or visibility is hidden",
+  "description": "returns true if el is not visible",
   "version": "0.0.1",
   "keywords": ["hidden", "invisible", "display"],
   "dependencies": {},
