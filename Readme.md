@@ -1,5 +1,4 @@
-
-# is-hidden
+# is-invisible
 
   returns true if el display is none or visibility is hidden
 
@@ -7,14 +6,14 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install jb55/is-hidden
+    $ component install jb55/is-invisible
 
 ## Example
 
 ```js
-var isHidden = require('is-hidden');
-var hidden = isHidden(el);
-// hidden is true if the element display is 'none' or visibility is 'hidden'
+var isInvisible = require('is-invisible');
+var invisible = isHidden(el);
+// invisible is true if the element display is 'none' or visibility is 'hidden'
 ```
 
 ## License
