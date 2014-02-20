@@ -1,6 +1,6 @@
 # is-invisible
 
-  returns true if el display is none or visibility is hidden
+  returns true el is not visible
 
 ## Installation
 
