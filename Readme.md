@@ -2,6 +2,8 @@
 
   returns true el is not visible
 
+[![browser support](https://ci.testling.com/jb55/is-invisible.png)](https://ci.testling.com/jb55/is-invisible)
+
 ## Installation
 
   Install with [component(1)](http://component.io):

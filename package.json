@@ -1,0 +1,22 @@
+{
+  "name": "is-invisible",
+  "repository": {
+    "url": "git://github.com/jb55/is-invisible.git"
+  },
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "component": "*"
+  },
+  "testling": {
+    "harness": "mocha",
+    "browsers": [
+      "ie6", "ie7", "ie8", "ie9",
+      "firefox/15", "chrome/22", "opera/12", "safari/5.1"
+    ],
+    "preprocess": "make build",
+    "scripts": ["build/*.js", "test/*.js"]
+  }
+}

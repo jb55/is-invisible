@@ -4,8 +4,15 @@
   "description": "returns true if el is not visible",
   "version": "0.0.1",
   "keywords": ["hidden", "invisible", "display"],
-  "dependencies": {},
-  "development": {},
+  "dependencies": {
+    "jb55/parents": "*",
+    "yields/some": "*"
+  },
+  "development": {
+    "component/assert": "*",
+    "jb55/show": "*",
+    "jb55/hide": "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
