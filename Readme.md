@@ -12,7 +12,7 @@
 
 ```js
 var isInvisible = require('is-invisible');
-var invisible = isHidden(el);
+var invisible = isInvisible(el);
 // invisible is true if the element display is 'none' or visibility is 'hidden'
 ```
 
